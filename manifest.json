@@ -1,0 +1,15 @@
+{
+    "name": "BlockerByPrasad",
+    "version": "1.0",
+    "description": "BLock IT",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/logo_16x16(a).png",
+        "48": "icons/logo_48x48(a).png",
+        "128": "icons/logo_128x128(a).png"
+    },
+    "manifest_version": 2
+}
